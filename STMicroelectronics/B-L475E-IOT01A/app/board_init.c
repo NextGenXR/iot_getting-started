@@ -7,6 +7,10 @@
 
 #include "tx_api.h"
 
+#include "stm32l4xx_hal_def.h"
+#include "stm32l4xx_hal_usart.h"
+#include "stm32l4xx_hal_rng.h"
+
 #include "stm32l475e_iot01.h"
 #include "stm32l475e_iot01_accelero.h"
 #include "stm32l475e_iot01_gyro.h"

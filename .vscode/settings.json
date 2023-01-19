@@ -1,4 +1,8 @@
 {
     "cmake.configureOnOpen": false,
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "files.associations": {
+        "board_init.h": "c",
+        "stm32l4xx_hal.h": "c"
+    }
 }

@@ -26,11 +26,6 @@
  extern "C" {
 #endif
 
-/* Includes ------------------------------------------------------------------*/
-#include "stm32l4xx.h"
-#include "Legacy/stm32_hal_legacy.h"  /* Aliases file for old names compatibility */
-#include <stddef.h>
-
 /* Exported types ------------------------------------------------------------*/
 
 /**
@@ -52,6 +47,13 @@ typedef enum
   HAL_UNLOCKED = 0x00,
   HAL_LOCKED   = 0x01
 } HAL_LockTypeDef;
+
+/* Includes ------------------------------------------------------------------*/
+#include "stm32l4xx.h"
+#include "Legacy/stm32_hal_legacy.h"  /* Aliases file for old names compatibility */
+#include <stddef.h>
+
+
 
 /* Exported macros -----------------------------------------------------------*/
 
